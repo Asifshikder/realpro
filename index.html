@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=5, user-scalable=1"
+        name="viewport" />
+    <meta name="csrf-token" content="cv9QwmXxKwDrVAolgTQ0MOoRxI4BcA3JkICBhzkY">
+    <!-- <meta name="keywords" content="@ViewData[" MetaKeyword"]">
+    <meta name="description" content="@ViewData[" MetaDescription"]"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Plan page</title>
+
+    <link href="./Site/img/favicon.png" rel="icon">
+    <link href="./Site/img/apple-touch-icon.png" rel="apple-touch-icon">
+    <link href="./assets/css/style.css" rel="stylesheet" />
+    <link href="./assets/css/utility.css" rel="stylesheet" />
+    <link href="./lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar">
+            <div class="navbar-content">
+                <div class="container-main main-nav main-shadow">
+                    <div class="navbar-menu">
+                        <a class="navbar-brand" href="/">
+                            <img src="./assets/images/realpro_logo.png" class="logo-main">
+                        </a>
+                    </div>
+                    <div class="navbar-collapse justify-content-center" id="navbarDefault">
+                        <ul class="navbar-nav">
+                            <li class="nav-item nav-border-right">
+                                <a class="nav-link main-nav-item" asp-controller="Home" asp-action="Property"
+                                    asp-route-id="Sell">Sell</a>
+                            </li>
+                            <li class="nav-item nav-border-right">
+                                <a class="nav-link main-nav-item" asp-controller="Home" asp-action="Property"
+                                    asp-route-id="Buy">Buy</a>
+                            </li>
+                            <li class="nav-item nav-border-right">
+                                <a class="nav-link main-nav-item" asp-controller="Home" asp-action="Property"
+                                    asp-route-id="Rent">Rent</a>
+                            </li>
+                            <li class="nav-item nav-border-right">
+                                <a class="nav-link main-nav-item" asp-controller="Home" asp-action="Property"
+                                    asp-route-id="Valuation">Instant Valuation</a>
+                            </li>
+                            <li class="nav-item nav-border-right">
+                                <a class="nav-link main-nav-item" asp-controller="Home" asp-action="Plans">RealPro
+                                    CRM</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link main-nav-item" asp-controller="Properties"
+                                    asp-action="Index">Properties</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="navbar-function">
+                        <button class="btn btn-nav-function">
+                            <img src="./assets/images/icons/icon_heart.png" class="nav-func-icon" />
+                        </button>
+                        <button class="btn btn-nav-function">
+                            <img src="./assets/images/icons/icon_login.png" class="nav-func-icon" />
+                        </button>
+                        <button class="btn btn-nav-function">
+                            <img src="./assets/images/icons/icon_user.png" class="nav-func-icon" />
+                        </button>
+                        <select class="lan-control">
+                            <option>EN</option>
+                            <option>FR</option>
+                            <option>SW</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <div class="container-main bg-white rounded-15 mt-35px p-4 main-shadow">
+        <div class="d-flex justify-content-center mt-17px">
+            <div class="wide-sm-60">
+                <h1 class="text-intro-title">
+                    Grow Better With The Right
+                    Plan
+                </h1>
+            </div>
+        </div>
+        <div class="d-flex justify-content-center">
+            <div class="wide-sm-50">
+                <p class="text-intro-message">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                    industry's
+                    standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+                    scrambled it to
+                    make a type specimen book
+                </p>
+            </div>
+        </div>
+        <div class="d-flex justify-content-center">
+            <div class="wide-sm-50 mt-4">
+                <div class="text-plan-bg">
+                    <span class="text-plan">PLANS</span>
+                </div>
+                <div class="text-plan-option-bg">
+                    <div class="w-25 option-border-end"><a class="text-plan-link active" href="#">Agents</a></div>
+                    <div class="w-25 option-border-end"><a class="text-plan-link " href="#">Developer</a></div>
+                    <div class="w-25"><a class="text-plan-link " href="#">Property Manager</a></div>
+                </div>
+            </div>
+        </div>
+        <div class="d-flex justify-content-center my-4" style="margin-bottom: 120px!important;">
+            <div class="px-4">
+                <span class="fs-xs-24px">Monthly</span>
+            </div>
+            <div class="mt-xs-4px">
+                <label class="toggle">
+                    <input class="toggle-checkbox" type="checkbox" checked>
+                    <div class="toggle-switch"></div>
+                </label>
+            </div>
+            <div class="px-4">
+                <span class="text-secondary fs-xs-24px fw-450">Yearly</span>
+                <span class="text-theme fs-13px fw-450">50% off</span>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="container-main relative-t-125">
+        <div class="package-compare-sm">
+            <div class="flex-sm-space-between">
+                <div class="plan-card mb-xs-2">
+                    <div class="plan-card-primary">
+                        <p class="fw-500 mb-1 fs-xs-24px">Starter Plan</p>
+                        <h1 class="mb-0 text-price-value mt-2 fw-600 mb-2">$0.99 / Month</h1>
+                        <ul class="list-unstyled">
+                            <li class="py-5px">
+                                <span><img src="./assets/images/icons/icon_round_check.svg" class="check-secondary-icon" /></span>
+                                <span class="text-plan-info">Lorem Ipsum is simply dummy text of the </span>
+                            </li>
+                            <li class="py-5px">
+                                <span><img src="./assets/images/icons/icon_round_check.svg" class="check-secondary-icon" /></span>
+                                <span class="text-plan-info">Lorem Ipsum is simply dummy </span>
+                            </li>
+                            <li class="py-5px">
+                                <span><img src="./assets/images/icons/icon_round_check.svg" class="check-secondary-icon" /></span>
+                                <span class="text-plan-info">Lorem Ipsum is </span>
+                            </li>
+                            <li class="py-5px">
+                                <span><img src="./assets/images/icons/icon_round_check.svg" class="check-secondary-icon" /></span>
+                                <span class="text-plan-info">Lorem Ipsum is simply dummy text of the </span>
+                            </li>
+                            <li class="py-5px">
+                                <span><img src="./assets/images/icons/icon_round_check.svg" class="check-secondary-icon"/></span>
+                                <span class="text-plan-info">Lorem Ipsum is simply </span>
+                            </li>
+                            <li class="py-5px">
+                                <span><img src="./assets/images/icons/icon_round_check.svg" class="check-secondary-icon" /></span>
+                                <span class="text-plan-info">Lorem Ipsum is simply </span>
+                            </li>
+                            <li class="py-5px">
+                                <span><img src="./assets/images/icons/icon_round_check.svg" class="check-secondary-icon" /></span>
+                                <span class="text-plan-info">Lorem Ipsum is simply dummy text of the </span>
+                            </li>
+                        </ul>
+                        <button class="btn btn-block btn-plan-primary">Choose plan</button>
+                    </div>
+                </div>
+                <div class="plan-card mb-xs-2">
+                    <div class="plan-card-secondary">
+                        <p class="fw-500 mb-1 fs-xs-24px">Starter Plan</p>
+                        <h1 class="mb-0 text-price-value mt-2 fw-600 mb-2">$0.99 / Month</h1>
+                        <ul class="list-unstyled">
+                            <li class="py-5px">
+                                <span><img src="./assets/images/icons/icon_round_check.svg" class="check-secondary-icon"/></span>
+                                <span class="text-plan-info">Lorem Ipsum is simply dummy text of the </span>
+                            </li>
+                            <li class="py-5px">
+                                <span><img src="./assets/images/icons/icon_round_check.svg" class="check-secondary-icon" /></span>
+                                <span class="text-plan-info">Lorem Ipsum is simply dummy </span>
+                            </li>
+                            <li class="py-5px">
+                                <span><img src="./assets/images/icons/icon_round_check.svg" class="check-secondary-icon" /></span>
+                                <span class="text-plan-info">Lorem Ipsum is </span>
+                            </li>
+                            <li class="py-5px">
+                                <span><img src="./assets/images/icons/icon_round_check.svg" class="check-secondary-icon" /></span>
+                                <span class="text-plan-info">Lorem Ipsum is simply dummy text of the </span>
+                            </li>
+                            <li class="py-5px">
+                                <span><img src="./assets/images/icons/icon_round_check.svg" class="check-secondary-icon" /></span>
+                                <span class="text-plan-info">Lorem Ipsum is simply </span>
+                            </li>
+                            <li class="py-5px">
+                                <span><img src="./assets/images/icons/icon_round_check.svg" class="check-secondary-icon" /></span>
+                                <span class="text-plan-info">Lorem Ipsum is simply </span>
+                            </li>
+                            <li class="py-5px">
+                                <span><img src="./assets/images/icons/icon_round_check.svg" class="check-secondary-icon" /></span>
+                                <span class="text-plan-info">Lorem Ipsum is simply dummy text of the </span>
+                            </li>
+                        </ul>
+                        <button class="btn btn-block btn-plan-secondary">Choose plan</button>
+                    </div>
+                </div>
+                <div class="plan-card mb-xs-2">
+                    <div class="plan-card-default">
+                        <p class="fw-500 mb-1 fs-xs-24px">Starter Plan</p>
+                        <h1 class="mb-0 text-price-value mt-2 fw-600 mb-2">$0.99 / Month</h1>
+                        <ul class="list-unstyled">
+                            <li class="py-5px">
+                                <span><img src="./assets/images/icons/icon_round_check.svg" class="check-secondary-icon" /></span>
+                                <span class="text-plan-info">Lorem Ipsum is simply dummy text of the </span>
+                            </li>
+                            <li class="py-5px">
+                                <span><img src="./assets/images/icons/icon_round_check.svg" class="check-secondary-icon" /></span>
+                                <span class="text-plan-info">Lorem Ipsum is simply dummy </span>
+                            </li>
+                            <li class="py-5px">
+                                <span><img src="./assets/images/icons/icon_round_check.svg" class="check-secondary-icon" /></span>
+                                <span class="text-plan-info">Lorem Ipsum is </span>
+                            </li>
+                            <li class="py-5px">
+                                <span><img src="./assets/images/icons/icon_round_check.svg" class="check-secondary-icon" /></span>
+                                <span class="text-plan-info">Lorem Ipsum is simply dummy text of the </span>
+                            </li>
+                            <li class="py-5px">
+                                <span><img src="./assets/images/icons/icon_round_check.svg" class="check-secondary-icon" /></span>
+                                <span class="text-plan-info">Lorem Ipsum is simply </span>
+                            </li>
+                            <li class="py-5px">
+                                <span><img src="./assets/images/icons/icon_round_check.svg" class="check-secondary-icon" /></span>
+                                <span class="text-plan-info">Lorem Ipsum is simply </span>
+                            </li>
+                            <li class="py-5px">
+                                <span><img src="./assets/images/icons/icon_round_check.svg" class="check-secondary-icon" /></span>
+                                <span class="text-plan-info">Lorem Ipsum is simply dummy text of the </span>
+                            </li>
+                        </ul>
+                        <button class="btn btn-block btn-plan-default btn-price-xl">Choose plan</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-main mb-5">
+        <h1 class="section-title">What Plan Is Right For You?</h1>
+        <div class="wide-sm-55">
+
+            <p class="text-plan-section">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                Lorem Ipsum has been the
+                industry's
+                standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it
+                to
+                make a type specimen book
+            </p>
+        </div>
+        <div class="bg-white rounded-5 px4-py4 mt-4">
+            <div class="row">
+                <div class="col-sm-5 col-12 lead-option-header">
+                    <h6 class="mb-0 choose-title">Team Size</h6>
+                </div>
+                <div class="col-sm-7 col-12">
+                    <div class="lead-option">
+                        <input type="radio" id="a1" name="check-substitution-1" />
+                        <label class="btn btn-default btn-option-radio" for="a1">1</label>
+                    </div>
+                    <div class="lead-option">
+                        <input type="radio" id="a23" name="check-substitution-1" />
+                        <label class="btn btn-default btn-option-radio" for="a23">2-3</label>
+                    </div>
+                    <div class="lead-option">
+                        <input type="radio" id="a410" name="check-substitution-1" />
+                        <label class="btn btn-default btn-option-radio" for="a410">4-10</label>
+                    </div>
+                    <div class="lead-option">
+                        <input type="radio" id="a1125" name="check-substitution-1" />
+                        <label class="btn btn-default btn-option-radio" for="a1125">11-25</label>
+                    </div>
+                    <div class="lead-option">
+                        <input type="radio" id="a26" name="check-substitution-1" />
+                        <label class="btn btn-default btn-option-radio" for="a26">26+</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="rounded-5 px4-py4 mt-4 bg-transparent">
+            <div class="row">
+                <div class="col-sm-5 col-12 lead-option-header">
+                    <h6 class="choose-title">Desired Cadence</h6>
+                </div>
+                <div class="col-sm-7 col-12">
+                    <div class="lead-option">
+                        <input type="radio" id="b1" name="check-substitution-2" />
+                        <label class="btn btn-default btn-option-radio" for="b1">1</label>
+                    </div>
+                    <div class="lead-option">
+                        <input type="radio" id="b23" name="check-substitution-2" />
+                        <label class="btn btn-default btn-option-radio" for="b23">2-3</label>
+                    </div>
+                    <div class="lead-option">
+                        <input type="radio" id="b410" name="check-substitution-2" />
+                        <label class="btn btn-default btn-option-radio" for="b410">4-10</label>
+                    </div>
+                    <div class="lead-option">
+                        <input type="radio" id="b1125" name="check-substitution-2" />
+                        <label class="btn btn-default btn-option-radio" for="b1125">11-25</label>
+                    </div>
+                    <div class="lead-option">
+                        <input type="radio" id="b26" name="check-substitution-2" />
+                        <label class="btn btn-default btn-option-radio" for="b26">26+</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bg-white rounded-5 px4-py4 mt-4">
+            <div class="row">
+                <div class="col-sm-5 lead-option-header col-12">
+                    <h6 class="choose-title">Sites You Manage</h6>
+                </div>
+                <div class="col-sm-7 col-12">
+                    <div class="lead-option">
+                        <input type="radio" id="c1" name="check-substitution-3" />
+                        <label class="btn btn-default btn-option-radio" for="c1">1</label>
+                    </div>
+                    <div class="lead-option">
+                        <input type="radio" id="c23" name="check-substitution-3" />
+                        <label class="btn btn-default btn-option-radio" for="c23">2-3</label>
+                    </div>
+                    <div class="lead-option">
+                        <input type="radio" id="c410" name="check-substitution-3" />
+                        <label class="btn btn-default btn-option-radio" for="c410">4-10</label>
+                    </div>
+                    <div class="lead-option">
+                        <input type="radio" id="c1125" name="check-substitution-3" />
+                        <label class="btn btn-default btn-option-radio" for="c1125">11-25</label>
+                    </div>
+                    <div class="lead-option">
+                        <input type="radio" id="c26" name="check-substitution-3" />
+                        <label class="btn btn-default btn-option-radio" for="c26">26+</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="rounded-5 px4-py4 mt-4 bg-transparent">
+            <div class="row">
+                <div class="col-sm-5 lead-option-header  col-12">
+                    <h6 class="choose-title">Site Size</h6>
+                </div>
+                <div class="col-sm-7  col-12">
+                    <div class="lead-option">
+                        <input type="radio" id="d1" name="check-substitution-4" />
+                        <label class="btn btn-default btn-option-radio" for="d1">1</label>
+                    </div>
+                    <div class="lead-option">
+                        <input type="radio" id="d23" name="check-substitution-4" />
+                        <label class="btn btn-default btn-option-radio" for="d23">2-3</label>
+                    </div>
+                    <div class="lead-option">
+                        <input type="radio" id="d410" name="check-substitution-4" />
+                        <label class="btn btn-default btn-option-radio" for="d410">4-10</label>
+                    </div>
+                    <div class="lead-option">
+                        <input type="radio" id="d1125" name="check-substitution-4" />
+                        <label class="btn btn-default btn-option-radio" for="d1125">11-25</label>
+                    </div>
+                    <div class="lead-option">
+                        <input type="radio" id="d26" name="check-substitution-4" />
+                        <label class="btn btn-default btn-option-radio" for="d26">26+</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-main mb-5 mt-140px">
+        <h1 class="section-title wide-sm-65">We Recommend The Following Set Of
+            Apps For Real Estate</h1>
+        <div class="wide-sm-55">
+
+            <p class="text-plan-section">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                Lorem Ipsum has been the
+                industry's
+                standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it
+                to
+                make a type specimen book
+            </p>
+        </div>
+        <div class="mt-4 row">
+            <div class="col-12 col-sm-3 mb-3">
+                <div class="bg-white rounded-5 d-flex justify-content-between" style="padding: 20px 20px">
+                    <h1 class="fs-17px text-theme-secondary mb-0">Help Desk/Ticketing</h1>
+                    <div> <img src="./assets/images/icons/icon_circle-check_success.svg" height="16" /></div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-3 mb-3">
+                <div class="bg-white rounded-5 d-flex justify-content-between" style="padding: 20px 20px">
+                    <h1 class="fs-17px text-theme-secondary mb-0">Contacts Us</h1>
+                    <div> <img src="./assets/images/icons/icon_circle-check_success.svg" height="16" /></div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-3 mb-3">
+                <div class="bg-white rounded-5 d-flex justify-content-between" style="padding: 20px 20px">
+                    <h1 class="fs-17px text-theme-secondary mb-0">Customera</h1>
+                    <div> <img src="./assets/images/icons/icon_circle-check_success.svg" height="16" /></div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-3 mb-3">
+                <div class="bg-white rounded-5 d-flex justify-content-between" style="padding: 20px 20px">
+                    <h1 class="fs-17px text-theme-secondary mb-0">Proposal/Price Qu.....</h1>
+                    <div> <img src="./assets/images/icons/icon_circle-check_success.svg" height="16" /></div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-3 mb-3">
+                <div class="bg-white rounded-5 d-flex justify-content-between" style="padding: 20px 20px">
+                    <h1 class="fs-17px text-theme-secondary mb-0">Lead Management</h1>
+                    <div> <img src="./assets/images/icons/icon_circle-check_success.svg" height="16" /></div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-3 mb-3">
+                <div class="bg-white rounded-5 d-flex justify-content-between" style="padding: 20px 20px">
+                    <h1 class="fs-17px text-theme-secondary mb-0">Opportunities/Pip....</h1>
+                    <div> <img src="./assets/images/icons/icon_circle-check_success.svg" height="16" /></div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-3 mb-3">
+                <div class="bg-white rounded-5 d-flex justify-content-between" style="padding: 20px 20px">
+                    <h1 class="fs-17px text-theme-secondary mb-0">Property Management</h1>
+                    <div> <img src="./assets/images/icons/icon_circle-check_success.svg" height="16" /></div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-3 mb-3">
+                <div class="bg-white rounded-5 d-flex justify-content-between" style="padding: 20px 20px">
+                    <h1 class="fs-17px text-theme-secondary mb-0">Property Management</h1>
+                    <div> <img src="./assets/images/icons/icon_circle-check_success.svg" height="16" /></div>
+                </div>
+            </div>
+        </div>
+        <div class="flex-xs-center">
+            <button class="btn btn-getstarted">Get Started</button>
+        </div>
+    </div>
+    <div class="container-main mb-5 mt-140px">
+        <div class="text-center">
+            <h1 class="section-title">
+                Frequently Asked Questions
+            </h1>
+        </div>
+        <div class="d-flex justify-content-center mt-5">
+            <div class="wide-sm-90">
+                <div class="row accordion">
+                    <div class="col-sm-6 col-12 accordion mb-4" id="accordion">
+                        <div class="accordion-container mb-0">
+                            <div class="card-header collapsed" data-toggle="collapse" href="#collapseOne">
+                                <a class="card-title">
+                                    How are you better than online agents?
+                                </a>
+                            </div>
+                            <div id="collapseOne" class="card-body collapse" data-parent="#accordion">
+                                <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson
+                                    ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food
+                                    truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt
+                                    aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.
+                                    Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente
+                                    ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat
+                                    craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't
+                                    heard of them accusamus labore sustainable VHS.
+                                </p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-12 accordion  mb-4" id="accordiontwo">
+                        <div class="accordion-container mb-0">
+                            <div class="card-header collapsed" data-toggle="collapse" href="#collapsetwo">
+                                <a class="card-title">
+                                    Are you more expensive than online agents?
+                                </a>
+                            </div>
+                            <div id="collapsetwo" class="card-body collapse" data-parent="#accordiontwo">
+                                <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson
+                                    ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food
+                                    truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt
+                                    aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.
+                                    Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente
+                                    ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat
+                                    craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't
+                                    heard of them accusamus labore sustainable VHS.
+                                </p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-12 accordion mb-4" id="accordionthree">
+                        <div class="accordion-container mb-0">
+                            <div class="card-header collapsed" data-toggle="collapse" href="#collapsethree">
+                                <a class="card-title">
+                                    Do you charge any service fees?
+                                </a>
+                            </div>
+                            <div id="collapsethree" class="card-body collapse" data-parent="#accordionthree">
+                                <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson
+                                    ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-12 accordion mb-4" id="accordionfour">
+                        <div class="accordion-container mb-0">
+                            <div class="card-header collapsed" data-toggle="collapse" href="#collapsefour">
+                                <a class="card-title">
+                                    How are you better than online agents?
+                                </a>
+                            </div>
+                            <div id="collapsefour" class="card-body collapse" data-parent="#accordionfour">
+                                <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson
+                                    ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-12 accordion mb-4" id="accordionfive">
+                        <div class="accordion-container mb-0">
+                            <div class="card-header collapsed" data-toggle="collapse" href="#collapsefive">
+                                <a class="card-title">
+                                    How are you better than online agents?
+                                </a>
+                            </div>
+                            <div id="collapsefive" class="card-body collapse" data-parent="#accordionfive">
+                                <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson
+                                    ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-12 accordion mb-4" id="accordionsix">
+                        <div class="accordion-container mb-0">
+                            <div class="card-header collapsed" data-toggle="collapse" href="#collapsesix">
+                                <a class="card-title">
+                                    Are you more expensive than online agents?
+                                </a>
+                            </div>
+                            <div id="collapsesix" class="card-body collapse" data-parent="#accordionsix">
+                                <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson
+                                    ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-12 accordion mb-4" id="accordionseven">
+                        <div class="accordion-container mb-0">
+                            <div class="card-header collapsed" data-toggle="collapse" href="#collapseseven">
+                                <a class="card-title">
+                                    Do you charge any service fees?
+                                </a>
+                            </div>
+                            <div id="collapseseven" class="card-body collapse" data-parent="#accordionseven">
+                                <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson
+                                    ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-12 accordion mb-4" id="accordioneight">
+                        <div class="accordion-container mb-0">
+                            <div class="card-header collapsed" data-toggle="collapse" href="#collapseeight">
+                                <a class="card-title">
+                                    How are you better than online agents?
+                                </a>
+                            </div>
+                            <div id="collapseeight" class="card-body collapse" data-parent="#accordioneight">
+                                <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson
+                                    ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-12 accordion mb-4" id="accordionnine">
+                        <div class="accordion-container mb-0">
+                            <div class="card-header collapsed" data-toggle="collapse" href="#collapsenine">
+                                <a class="card-title">
+                                    Do you charge any service fees?
+                                </a>
+                            </div>
+                            <div id="collapsenine" class="card-body collapse" data-parent="#accordionnine">
+                                <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson
+                                    ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-12 accordion mb-4" id="accordionten">
+                        <div class="accordion-container mb-0">
+                            <div class="card-header collapsed" data-toggle="collapse" href="#collapseten">
+                                <a class="card-title">
+                                    How are you better than online agents?
+                                </a>
+                            </div>
+                            <div id="collapseten" class="card-body collapse" data-parent="#accordionten">
+                                <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson
+                                    ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="preloader"></div>
+
+    <script src="./lib/jquery/dist/jquery.min.js"></script>
+    <script src="./lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
