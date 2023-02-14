@@ -272,25 +272,69 @@ body {
     height: 65px!important;
     border: none!important;
     border-radius: 6px;
+    font-weight: 450!important;
+    color: #929292!important;
+}
+/* .select-items {
+    position: absolute;
+    background-color: DodgerBlue;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 99;
+  } */
+.input-property select{
+    -ms-progress-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    line-height: 20px;
+    background: #FF3A6E url('../images/icons/select_group.png') 74% / 13% no-repeat;
+       
 }
 .btn-search-icon{
     border: none;
     margin-left: 0px;
-    padding: 10px;
+    padding: 10px 20px;
     background: white;
     color:#FF3A6E;
     border-top-right-radius: 6px;
     border-bottom-right-radius: 6px;
 }
+.btn-search-submit{
+    border: none;
+    width: 100%;
+    margin-left: 0px;
+    padding: 10px 20px;
+    background:rgb(255, 56, 109);
+    color:#FFF;
+    font-size: 16px;
+    font-weight: 450;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.btn-search-submit:hover{
+    transition: 300ms;
+    box-shadow: 0px 0px 10px 0px rgba(255, 56, 109,1)!important;
+}
 @media(min-width:1367px) {
     .btn-search-icon{
         border: none;
         margin-left: 0px;
-        padding: 10px;
+        padding: 10px 20px;
         background: white;
         color:#FF3A6E;
         border-top-right-radius: 8px!important;
         border-bottom-right-radius: 8px!important;
+    }
+    .btn-search-submit{
+        border: none;
+        margin-left: 0px;
+        padding: 10px 20px;
+        background:#FF3A6E ;
+        color:white;
+        font-size: 18px;
+        font-weight: 500;
+        border-radius: 8px!important;
     }
     .input-property {
         height: 88px !important;
@@ -930,6 +974,26 @@ text-plan-link active {
 .wide-sm-50 {
     width: 50% !important;
 }
+.wide-sm-49 {
+    width: 49% !important;
+}
+.wide-sm-48 {
+    width: 48% !important;
+}
+
+.wide-sm-25 {
+    width: 25% !important;
+}
+.wide-sm-24 {
+    width: 24% !important;
+}
+
+.wide-sm-23 {
+    width: 23% !important;
+}
+.wide-sm-19 {
+    width: 19% !important;
+}
 
 .package-compare-sm {
     padding: 0px 100px;
@@ -978,6 +1042,24 @@ text-plan-link active {
     }
 
     .wide-sm-50 {
+        width: 100% !important;
+    }
+    .wide-sm-49 {
+        width: 100% !important;
+    }
+    .wide-sm-48 {
+        width: 100% !important;
+    }
+    .wide-sm-25 {
+        width: 100% !important;
+    }
+    .wide-sm-24 {
+        width: 100% !important;
+    }
+    .wide-sm-23 {
+        width: 100% !important;
+    }
+    .wide-sm-19 {
         width: 100% !important;
     }
 
