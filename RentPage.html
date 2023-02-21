@@ -77,7 +77,8 @@
             </div>
         </nav>
     </header>
-    <div id="carouselExampleIndicators" class="carousel slide container-main bg-property-slide rounded-15 mt-35px mb-4"  data-ride="carousel">
+    <div id="carouselExampleIndicators" class="carousel slide container-main bg-property-slide rounded-15 mt-35px mb-4"
+        data-ride="carousel">
         <ol class="carousel-indicators">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -172,128 +173,701 @@
                 </div>
             </div>
         </div>
-        
+
     </div>
 
     <div class="container-main mb-5">
         <div>
             <ul id="tabs" class="nav nav-tabs rent-tab">
-                <li class="nav-item"><a href="" data-target="#home1" data-toggle="tab"
-                        class="nav-link small">Buy</a></li>
+                <li class="nav-item"><a href="" data-target="#home1" data-toggle="tab" class="nav-link small">Buy</a>
+                </li>
                 <li class="nav-item"><a href="" data-target="#profile1" data-toggle="tab"
                         class="nav-link small active">Rent</a></li>
                 <li class="nav-item"><a href="" data-target="#messages1" data-toggle="tab"
                         class="nav-link small">Instant Valuation</a></li>
             </ul>
             <div id="tabsContent" class="tab-content rent-tab-content">
-                <div id="home1" class="tab-pane fade">
-                  
-                </div>
-                <div id="profile1" class="tab-pane fade active show">
-                <div class="d-flex">
-                    <input class="form-control input-property" />
-                </div>
-                </div>
-                <div id="messages1" class="tab-pane fade">
-                    <div class="row">
-                        <div class="col-sm-4 col-12 mb-4">
-                            <div class="bg-white rounded-16 p-3">
-                                <img src="./assets/images/property/p1.png" class="img-fluid">
-                                <h1 class="property-item-title">Modern Design Villa With Pool
-                                    And Guests.....</h1>
-                                <p class="text-theme">
-                                    $1,800.00/mo
-                                </p>
-                                <div class="d-flex my-3 justify-content-between">
-                                    <div class="d-flex" style="width:32%">
-                                        <div class="prop_icon">
-                                            <img src="./assets/images/icons/icon_bed.png" class="img-fluid" />
+                <div id="home1" class="tab-pane rent-tab-content px-3 fade py-4 tab-box-shadow">
+                    <div class="d-flex">
+                        <div class="border-search-area d-flex p-1 w-80">
+                            <div class="input-group border-right-control-rent w-50">
+                                <input type="text" class="form-control input-rent" placeholder="Search Location">
+                                <div class="input-group-append">
+                                    <button class="btn-search-icon" type="button">
+                                        <div class="btn-theme-square">
+                                            <i class="fa-solid fa-plus"></i>
                                         </div>
-                                        <span class="prop_label">3 Beds</span>
-                                    </div>
-                                    <div class="d-flex" style="width:32%">
-                                        <div class="prop_icon" style="width:32%">
-                                            <img src="./assets/images/icons/icon_bath.png" class="img-fluid" />
-                                        </div>
-                                        <span class="prop_label">2 Baths</span>
-                                    </div>
-                                    <div class="d-flex" style="width:32%">
-                                        <div class="prop_icon">
-                                            <img src="./assets/images/icons/icon_area.png" class="img-fluid" />
-                                        </div>
-                                        <span class="prop_label">2250 sqft</span>
-                                    </div>
-
+                                    </button>
                                 </div>
                             </div>
-                        </div>
-
-                        <div class="col-sm-4 col-12 mb-4">
-                            <div class="bg-white rounded-16 p-3">
-                                <img src="./assets/images/property/p2.png" class="img-fluid">
-                                <h1 class="property-item-title">Modern Design Villa With Pool
-                                    And Guests.....</h1>
-                                <p class="text-theme">
-                                    $1,800.00/mo
-                                </p>
-                                <div class="d-flex my-3 justify-content-between">
-                                    <div class="d-flex" style="width:32%">
-                                        <div class="prop_icon">
-                                            <img src="./assets/images/icons/icon_bed.png" class="img-fluid" />
-                                        </div>
-                                        <span class="prop_label">3 Beds</span>
-                                    </div>
-                                    <div class="d-flex" style="width:32%">
-                                        <div class="prop_icon" style="width:32%">
-                                            <img src="./assets/images/icons/icon_bath.png" class="img-fluid" />
-                                        </div>
-                                        <span class="prop_label">2 Baths</span>
-                                    </div>
-                                    <div class="d-flex" style="width:32%">
-                                        <div class="prop_icon">
-                                            <img src="./assets/images/icons/icon_area.png" class="img-fluid" />
-                                        </div>
-                                        <span class="prop_label">2250 sqft</span>
-                                    </div>
-
-                                </div>
+                            <div class="w-50">
+                                <input type="text" class="form-control input-rent" placeholder="Search product">
                             </div>
                         </div>
-                        <div class="col-sm-4 col-12 mb-4">
-                            <div class="bg-white rounded-16 p-3">
-                                <img src="./assets/images/property/p3.png" class="img-fluid">
-                                <h1 class="property-item-title">Modern Design Villa With Pool
-                                    And Guests.....</h1>
-                                <p class="text-theme">
-                                    $1,800.00/mo
-                                </p>
-                                <div class="d-flex my-3 justify-content-between">
-                                    <div class="d-flex" style="width:32%">
-                                        <div class="prop_icon">
-                                            <img src="./assets/images/icons/icon_bed.png" class="img-fluid" />
+                        <div class="input-group w-20 pl-sm-10px">
+                            <button class="btn-search-submit">Search</button>
+                        </div>
+                    </div>
+                </div>
+                <div id="profile1" class="tab-pane rent-tab-content px-3 fade py-4 active show tab-box-shadow">
+                    <div class="d-flex">
+                        <div class="border-search-area d-flex p-1 w-80">
+                            <div class="input-group border-right-control-rent w-50">
+                                <input type="text" class="form-control input-rent" placeholder="Search Location">
+                                <div class="input-group-append">
+                                    <button class="btn-search-icon" type="button">
+                                        <div class="btn-theme-square">
+                                            <i class="fa-solid fa-plus"></i>
                                         </div>
-                                        <span class="prop_label">3 Beds</span>
-                                    </div>
-                                    <div class="d-flex" style="width:32%">
-                                        <div class="prop_icon" style="width:32%">
-                                            <img src="./assets/images/icons/icon_bath.png" class="img-fluid" />
-                                        </div>
-                                        <span class="prop_label">2 Baths</span>
-                                    </div>
-                                    <div class="d-flex" style="width:32%">
-                                        <div class="prop_icon">
-                                            <img src="./assets/images/icons/icon_area.png" class="img-fluid" />
-                                        </div>
-                                        <span class="prop_label">2250 sqft</span>
-                                    </div>
-
+                                    </button>
                                 </div>
                             </div>
+                            <div class="w-50">
+                                <input type="text" class="form-control input-rent" placeholder="Search product">
+                            </div>
                         </div>
-
+                        <div class="input-group w-20 pl-sm-10px">
+                            <button class="btn-search-submit">Search</button>
+                        </div>
+                    </div>
+                </div>
+                <div id="messages1" class="tab-pane rent-tab-content px-3 fade py-4 tab-box-shadow">
+                    <div class="d-flex">
+                        <div class="border-search-area d-flex p-1 w-80">
+                            <div class="input-group border-right-control-rent w-50">
+                                <input type="text" class="form-control input-rent" placeholder="Search Location">
+                                <div class="input-group-append">
+                                    <button class="btn-search-icon" type="button">
+                                        <div class="btn-theme-square">
+                                            <i class="fa-solid fa-plus"></i>
+                                        </div>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="w-50">
+                                <input type="text" class="form-control input-rent" placeholder="Search product">
+                            </div>
+                        </div>
+                        <div class="input-group w-20 pl-sm-10px">
+                            <button class="btn-search-submit">Search</button>
+                        </div>
                     </div>
                 </div>
             </div>
+        </div>
+    </div>
+    <div class="container-main">
+        <div class="mb-4">
+            <h1 class="text-label">Discover Our Feature Listing</h1>
+            <div class="wide-sm-50">
+                <p class="text-intro-message text-left">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                    industry's
+                    standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+                    scrambled it to
+                    make a type specimen book
+                </p>
+            </div>
+        </div>
+        <div>
+
+            <div class="row">
+                <div class="col-sm-4 col-12 mb-4">
+                    <div class="bg-white rounded-16 p-3">
+                        <img src="./assets/images/property/p1.png" class="img-fluid">
+                        <div class="overlay-info">
+                            <div>
+                                <span class="span-feature">Featured</span>
+                            </div>
+                            <div>
+                                <span class="span-liked"><img src="./assets/images/icons/icon_heart_fill.png"
+                                        height="11px" /> 222</span>
+                                <span class="span-liked"><img src="./assets/images/icons/icon_eye.png" height="11px" />
+                                    22K</span>
+                            </div>
+                        </div>
+                        <div class="mt-3 mb-2">
+                            <h5 class="mb-0 text-theme-sucess">For rent</h5>
+                        </div>
+                        <h1 class="property-item-title">Light And Modern Apartment</h1>
+                        <h6 class="property-location">2436 Sw 8th St, Miami FL 33135, USA</h6>
+                        <p class="text-theme">
+                            $1,800.00/mo
+                        </p>
+                        <div class="d-flex mt-3 mb-2 justify-content-between">
+                            <div class="d-flex" style="width:32%">
+                                <div class="prop_icon">
+                                    <img src="./assets/images/icons/icon_bed.png" class="img-fluid" />
+                                </div>
+                                <span class="prop_label">3 Beds</span>
+                            </div>
+                            <div class="d-flex" style="width:32%">
+                                <div class="prop_icon" style="width:32%">
+                                    <img src="./assets/images/icons/icon_bath.png" class="img-fluid" />
+                                </div>
+                                <span class="prop_label">2 Baths</span>
+                            </div>
+                            <div class="d-flex" style="width:32%">
+                                <div class="prop_icon">
+                                    <img src="./assets/images/icons/icon_area.png" class="img-fluid" />
+                                </div>
+                                <span class="prop_label">2250 sqft</span>
+                            </div>
+                        </div>
+                        <div class="my-3 d-flex justify-content-between">
+                            <a class="btn btn-schedule w-48"><span><img src="./assets/images/icons/icon_people.png"
+                                        height="14" /></span>
+                                <span style="top: 2px;position: relative;">Samuel Palmer</span>
+                            </a>
+                            <a class="btn btn-attached w-48"><span><img src="./assets/images/icons/icon_warn-check.png"
+                                        height="14" /></span>
+                                <span style="top: 2px;position: relative;">200 plus sold</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-12 mb-4">
+                    <div class="bg-white rounded-16 p-3">
+                        <img src="./assets/images/property/p2.png" class="img-fluid">
+                        <div class="overlay-info">
+                            <div>
+                                <span class="span-feature">Featured</span>
+                            </div>
+                            <div>
+                                <div class="span-liked-in"><img src="./assets/images/icons/icon_heart_fill.png"
+                                        height="15" /></div>
+                            </div>
+                        </div>
+                        <div class="mt-3 mb-2">
+                            <h5 class="mb-0 text-theme-sucess">For rent</h5>
+                        </div>
+                        <h1 class="property-item-title">Light And Modern Apartment</h1>
+                        <h6 class="property-location">2436 Sw 8th St, Miami FL 33135, USA</h6>
+                        <p class="text-theme">
+                            $1,800.00/mo
+                        </p>
+                        <div class="d-flex mt-3 mb-2 justify-content-between">
+                            <div class="d-flex" style="width:32%">
+                                <div class="prop_icon">
+                                    <img src="./assets/images/icons/icon_bed.png" class="img-fluid" />
+                                </div>
+                                <span class="prop_label">3 Beds</span>
+                            </div>
+                            <div class="d-flex" style="width:32%">
+                                <div class="prop_icon" style="width:32%">
+                                    <img src="./assets/images/icons/icon_bath.png" class="img-fluid" />
+                                </div>
+                                <span class="prop_label">2 Baths</span>
+                            </div>
+                            <div class="d-flex" style="width:32%">
+                                <div class="prop_icon">
+                                    <img src="./assets/images/icons/icon_area.png" class="img-fluid" />
+                                </div>
+                                <span class="prop_label">2250 sqft</span>
+                            </div>
+                        </div>
+                        <div class="my-3 d-flex justify-content-between">
+                            <a class="btn btn-schedule w-48"><span><img src="./assets/images/icons/icon_people.png"
+                                        height="14" /></span>
+                                <span style="top: 2px;position: relative;">Samuel Palmer</span>
+                            </a>
+                            <a class="btn btn-attached w-48"><span><img src="./assets/images/icons/icon_clip.png"
+                                        height="14" /></span>
+                                <span style="top: 2px;position: relative;">2 year ago</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-4 col-12 mb-4">
+                    <div class="bg-white rounded-16 p-3">
+                        <img src="./assets/images/property/p3.png" class="img-fluid">
+                        <div class="overlay-info">
+                            <div>
+                                <span class="span-feature">Featured</span>
+                            </div>
+                            <div>
+                                <div class="span-liked-in"><img src="./assets/images/icons/icon_heart_fill.png"
+                                        height="15" /></div>
+                            </div>
+                        </div>
+                        <div class="mt-3 mb-2">
+                            <h5 class="mb-0 text-theme-sucess">For rent</h5>
+                        </div>
+                        <h1 class="property-item-title">Light And Modern Apartment</h1>
+                        <h6 class="property-location">2436 Sw 8th St, Miami FL 33135, USA</h6>
+                        <p class="text-theme">
+                            $1,800.00/mo
+                        </p>
+                        <div class="d-flex mt-3 mb-2 justify-content-between">
+                            <div class="d-flex" style="width:32%">
+                                <div class="prop_icon">
+                                    <img src="./assets/images/icons/icon_bed.png" class="img-fluid" />
+                                </div>
+                                <span class="prop_label">3 Beds</span>
+                            </div>
+                            <div class="d-flex" style="width:32%">
+                                <div class="prop_icon" style="width:32%">
+                                    <img src="./assets/images/icons/icon_bath.png" class="img-fluid" />
+                                </div>
+                                <span class="prop_label">2 Baths</span>
+                            </div>
+                            <div class="d-flex" style="width:32%">
+                                <div class="prop_icon">
+                                    <img src="./assets/images/icons/icon_area.png" class="img-fluid" />
+                                </div>
+                                <span class="prop_label">2250 sqft</span>
+                            </div>
+                        </div>
+                        <div class="my-3 d-flex justify-content-between">
+                            <a class="btn btn-schedule w-48"><span><img src="./assets/images/icons/icon_people.png"
+                                        height="14" /></span>
+                                <span style="top: 2px;position: relative;">Samuel Palmer</span>
+                            </a>
+                            <a class="btn btn-attached w-48"><span><img src="./assets/images/icons/icon_clip.png"
+                                        height="14" /></span>
+                                <span style="top: 2px;position: relative;">2 year ago</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-4 col-12 mb-4">
+                    <div class="bg-white rounded-16 p-3">
+                        <img src="./assets/images/property/p4.png" class="img-fluid">
+                        <div class="overlay-info">
+                            <div>
+                                <span class="span-feature">Featured</span>
+                            </div>
+                            <div>
+                                <div class="span-liked-in"><img src="./assets/images/icons/icon_heart_fill.png"
+                                        height="15" /></div>
+                            </div>
+                        </div>
+                        <div class="mt-3 mb-2">
+                            <h5 class="mb-0 text-theme-sucess">For rent</h5>
+                        </div>
+                        <h1 class="property-item-title">Light And Modern Apartment</h1>
+                        <h6 class="property-location">2436 Sw 8th St, Miami FL 33135, USA</h6>
+                        <p class="text-theme">
+                            $1,800.00/mo
+                        </p>
+                        <div class="d-flex mt-3 mb-2 justify-content-between">
+                            <div class="d-flex" style="width:32%">
+                                <div class="prop_icon">
+                                    <img src="./assets/images/icons/icon_bed.png" class="img-fluid" />
+                                </div>
+                                <span class="prop_label">3 Beds</span>
+                            </div>
+                            <div class="d-flex" style="width:32%">
+                                <div class="prop_icon" style="width:32%">
+                                    <img src="./assets/images/icons/icon_bath.png" class="img-fluid" />
+                                </div>
+                                <span class="prop_label">2 Baths</span>
+                            </div>
+                            <div class="d-flex" style="width:32%">
+                                <div class="prop_icon">
+                                    <img src="./assets/images/icons/icon_area.png" class="img-fluid" />
+                                </div>
+                                <span class="prop_label">2250 sqft</span>
+                            </div>
+                        </div>
+                        <div class="my-3 d-flex justify-content-between">
+                            <a class="btn btn-schedule w-48"><span><img src="./assets/images/icons/icon_people.png"
+                                        height="14" /></span>
+                                <span style="top: 2px;position: relative;">Samuel Palmer</span>
+                            </a>
+                            <a class="btn btn-attached w-48"><span><img src="./assets/images/icons/icon_clip.png"
+                                        height="14" /></span>
+                                <span style="top: 2px;position: relative;">2 year ago</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-4 col-12 mb-4">
+                    <div class="bg-white rounded-16 p-3">
+                        <img src="./assets/images/property/p5.png" class="img-fluid">
+                        <div class="overlay-info">
+                            <div>
+                                <span class="span-feature">Featured</span>
+                            </div>
+                            <div>
+                                <div class="span-liked-in"><img src="./assets/images/icons/icon_heart_fill.png"
+                                        height="15" /></div>
+                            </div>
+                        </div>
+                        <div class="mt-3 mb-2">
+                            <h5 class="mb-0 text-theme-sucess">For rent</h5>
+                        </div>
+                        <h1 class="property-item-title">Light And Modern Apartment</h1>
+                        <h6 class="property-location">2436 Sw 8th St, Miami FL 33135, USA</h6>
+                        <p class="text-theme">
+                            $1,800.00/mo
+                        </p>
+                        <div class="d-flex mt-3 mb-2 justify-content-between">
+                            <div class="d-flex" style="width:32%">
+                                <div class="prop_icon">
+                                    <img src="./assets/images/icons/icon_bed.png" class="img-fluid" />
+                                </div>
+                                <span class="prop_label">3 Beds</span>
+                            </div>
+                            <div class="d-flex" style="width:32%">
+                                <div class="prop_icon" style="width:32%">
+                                    <img src="./assets/images/icons/icon_bath.png" class="img-fluid" />
+                                </div>
+                                <span class="prop_label">2 Baths</span>
+                            </div>
+                            <div class="d-flex" style="width:32%">
+                                <div class="prop_icon">
+                                    <img src="./assets/images/icons/icon_area.png" class="img-fluid" />
+                                </div>
+                                <span class="prop_label">2250 sqft</span>
+                            </div>
+                        </div>
+                        <div class="my-3 d-flex justify-content-between">
+                            <a class="btn btn-schedule w-48"><span><img src="./assets/images/icons/icon_people.png"
+                                        height="14" /></span>
+                                <span style="top: 2px;position: relative;">Samuel Palmer</span>
+                            </a>
+                            <a class="btn btn-attached w-48"><span><img src="./assets/images/icons/icon_clip.png"
+                                        height="14" /></span>
+                                <span style="top: 2px;position: relative;">2 year ago</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-4 col-12 mb-4">
+                    <div class="bg-white rounded-16 p-3">
+                        <img src="./assets/images/property/p6.png" class="img-fluid">
+                        <div class="overlay-info">
+                            <div>
+                                <span class="span-feature">Featured</span>
+                            </div>
+                            <div>
+                                <div class="span-liked-in"><img src="./assets/images/icons/icon_heart_fill.png"
+                                        height="15" /></div>
+                            </div>
+                        </div>
+                        <div class="mt-3 mb-2">
+                            <h5 class="mb-0 text-theme-sucess">For rent</h5>
+                        </div>
+                        <h1 class="property-item-title">Light And Modern Apartment</h1>
+                        <h6 class="property-location">2436 Sw 8th St, Miami FL 33135, USA</h6>
+                        <p class="text-theme">
+                            $1,800.00/mo
+                        </p>
+                        <div class="d-flex mt-3 mb-2 justify-content-between">
+                            <div class="d-flex" style="width:32%">
+                                <div class="prop_icon">
+                                    <img src="./assets/images/icons/icon_bed.png" class="img-fluid" />
+                                </div>
+                                <span class="prop_label">3 Beds</span>
+                            </div>
+                            <div class="d-flex" style="width:32%">
+                                <div class="prop_icon" style="width:32%">
+                                    <img src="./assets/images/icons/icon_bath.png" class="img-fluid" />
+                                </div>
+                                <span class="prop_label">2 Baths</span>
+                            </div>
+                            <div class="d-flex" style="width:32%">
+                                <div class="prop_icon">
+                                    <img src="./assets/images/icons/icon_area.png" class="img-fluid" />
+                                </div>
+                                <span class="prop_label">2250 sqft</span>
+                            </div>
+                        </div>
+                        <div class="my-3 d-flex justify-content-between">
+                            <a class="btn btn-schedule w-48"><span><img src="./assets/images/icons/icon_people.png"
+                                        height="14" /></span>
+                                <span style="top: 2px;position: relative;">Samuel Palmer</span>
+                            </a>
+                            <a class="btn btn-attached w-48"><span><img src="./assets/images/icons/icon_clip.png"
+                                        height="14" /></span>
+                                <span style="top: 2px;position: relative;">2 year ago</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-4 col-12 mb-4">
+                    <div class="bg-white rounded-16 p-3">
+                        <img src="./assets/images/property/p7.png" class="img-fluid">
+                        <div class="overlay-info">
+                            <div>
+                                <span class="span-feature">Featured</span>
+                            </div>
+                            <div>
+                                <div class="span-liked-in"><img src="./assets/images/icons/icon_heart_fill.png"
+                                        height="15" /></div>
+                            </div>
+                        </div>
+                        <div class="mt-3 mb-2">
+                            <h5 class="mb-0 text-theme-sucess">For rent</h5>
+                        </div>
+                        <h1 class="property-item-title">Light And Modern Apartment</h1>
+                        <h6 class="property-location">2436 Sw 8th St, Miami FL 33135, USA</h6>
+                        <p class="text-theme">
+                            $1,800.00/mo
+                        </p>
+                        <div class="d-flex mt-3 mb-2 justify-content-between">
+                            <div class="d-flex" style="width:32%">
+                                <div class="prop_icon">
+                                    <img src="./assets/images/icons/icon_bed.png" class="img-fluid" />
+                                </div>
+                                <span class="prop_label">3 Beds</span>
+                            </div>
+                            <div class="d-flex" style="width:32%">
+                                <div class="prop_icon" style="width:32%">
+                                    <img src="./assets/images/icons/icon_bath.png" class="img-fluid" />
+                                </div>
+                                <span class="prop_label">2 Baths</span>
+                            </div>
+                            <div class="d-flex" style="width:32%">
+                                <div class="prop_icon">
+                                    <img src="./assets/images/icons/icon_area.png" class="img-fluid" />
+                                </div>
+                                <span class="prop_label">2250 sqft</span>
+                            </div>
+                        </div>
+                        <div class="my-3 d-flex justify-content-between">
+                            <a class="btn btn-schedule w-48"><span><img src="./assets/images/icons/icon_people.png"
+                                        height="14" /></span>
+                                <span style="top: 2px;position: relative;">Samuel Palmer</span>
+                            </a>
+                            <a class="btn btn-attached w-48"><span><img src="./assets/images/icons/icon_clip.png"
+                                        height="14" /></span>
+                                <span style="top: 2px;position: relative;">2 year ago</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-12 mb-4">
+                    <div class="bg-white rounded-16 p-3">
+                        <img src="./assets/images/property/p8.png" class="img-fluid">
+                        <div class="overlay-info">
+                            <div>
+                                <span class="span-feature">Featured</span>
+                            </div>
+                            <div>
+                                <div class="span-liked-in"><img src="./assets/images/icons/icon_heart_fill.png"
+                                        height="15" /></div>
+                            </div>
+                        </div>
+                        <div class="mt-3 mb-2">
+                            <h5 class="mb-0 text-theme-sucess">For rent</h5>
+                        </div>
+                        <h1 class="property-item-title">Light And Modern Apartment</h1>
+                        <h6 class="property-location">2436 Sw 8th St, Miami FL 33135, USA</h6>
+                        <p class="text-theme">
+                            $1,800.00/mo
+                        </p>
+                        <div class="d-flex mt-3 mb-2 justify-content-between">
+                            <div class="d-flex" style="width:32%">
+                                <div class="prop_icon">
+                                    <img src="./assets/images/icons/icon_bed.png" class="img-fluid" />
+                                </div>
+                                <span class="prop_label">3 Beds</span>
+                            </div>
+                            <div class="d-flex" style="width:32%">
+                                <div class="prop_icon" style="width:32%">
+                                    <img src="./assets/images/icons/icon_bath.png" class="img-fluid" />
+                                </div>
+                                <span class="prop_label">2 Baths</span>
+                            </div>
+                            <div class="d-flex" style="width:32%">
+                                <div class="prop_icon">
+                                    <img src="./assets/images/icons/icon_area.png" class="img-fluid" />
+                                </div>
+                                <span class="prop_label">2250 sqft</span>
+                            </div>
+                        </div>
+                        <div class="my-3 d-flex justify-content-between">
+                            <a class="btn btn-schedule w-48"><span><img src="./assets/images/icons/icon_people.png"
+                                        height="14" /></span>
+                                <span style="top: 2px;position: relative;">Samuel Palmer</span>
+                            </a>
+                            <a class="btn btn-attached w-48"><span><img src="./assets/images/icons/icon_clip.png"
+                                        height="14" /></span>
+                                <span style="top: 2px;position: relative;">2 year ago</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-12 mb-4">
+                    <div class="bg-white rounded-16 p-3">
+                        <img src="./assets/images/property/p9.png" class="img-fluid">
+                        <div class="overlay-info">
+                            <div>
+                                <span class="span-feature">Featured</span>
+                            </div>
+                            <div>
+                                <div class="span-liked-in"><img src="./assets/images/icons/icon_heart_fill.png"
+                                        height="15" /></div>
+                            </div>
+                        </div>
+                        <div class="mt-3 mb-2">
+                            <h5 class="mb-0 text-theme-sucess">For rent</h5>
+                        </div>
+                        <h1 class="property-item-title">Light And Modern Apartment</h1>
+                        <h6 class="property-location">2436 Sw 8th St, Miami FL 33135, USA</h6>
+                        <p class="text-theme">
+                            $1,800.00/mo
+                        </p>
+                        <div class="d-flex mt-3 mb-2 justify-content-between">
+                            <div class="d-flex" style="width:32%">
+                                <div class="prop_icon">
+                                    <img src="./assets/images/icons/icon_bed.png" class="img-fluid" />
+                                </div>
+                                <span class="prop_label">3 Beds</span>
+                            </div>
+                            <div class="d-flex" style="width:32%">
+                                <div class="prop_icon" style="width:32%">
+                                    <img src="./assets/images/icons/icon_bath.png" class="img-fluid" />
+                                </div>
+                                <span class="prop_label">2 Baths</span>
+                            </div>
+                            <div class="d-flex" style="width:32%">
+                                <div class="prop_icon">
+                                    <img src="./assets/images/icons/icon_area.png" class="img-fluid" />
+                                </div>
+                                <span class="prop_label">2250 sqft</span>
+                            </div>
+                        </div>
+                        <div class="my-3 d-flex justify-content-between">
+                            <a class="btn btn-schedule w-48"><span><img src="./assets/images/icons/icon_people.png"
+                                        height="14" /></span>
+                                <span style="top: 2px;position: relative;">Samuel Palmer</span>
+                            </a>
+                            <a class="btn btn-attached w-48"><span><img src="./assets/images/icons/icon_clip.png"
+                                        height="14" /></span>
+                                <span style="top: 2px;position: relative;">2 year ago</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="mt-4 mb-4 d-flex justify-content-center">
+            <button class="btn-success-light">
+                Find More
+            </button>
+        </div>
+
+    </div>
+    <div class="mt-5 bg-white">
+        <div class="container-main py-5">
+            <h1 class="text-label text-center mb-5">Discover Our Feature Listing</h1>
+            <div class="row">
+                <div class="col-sm-6 col-12 mb-3">
+                    <div class="card-category">
+                        <h1 class="card-category-title mb-4">Residencial</h1>
+                        <p class="text-category-details mb-4">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                            been the
+                            industry's standard dummy text ever since the when an unknown printer took a galley of type.
+                            Lorem
+                            Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                            the
+                            industry's standard dummy text ever since the when an unknown printer took a galley of type.
+                            Lorem
+                            Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                            the
+                            industry's standard dummy text ever since.
+                        </p>
+                        <button class="btn btn-explore-primary">Explore now</button>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-12 mb-3">
+                    <div class="row">
+                        <div class="col-6">
+                            <div class="category-details-bg" style="background-image: url('./assets/images/cat1.png');">
+                                <div class="cat-overlay">
+                                    <div class="category-details-info">
+                                        <p class="mb-2 fs-15px text-white fw-450">7 Properties</p>
+                                        <h1 class="mb-2 fs-24px text-white fw-450">Single Family Home</h1>
+                                        <a class="text-white fw-450">MORE DETAILS <i
+                                                class="fa-solid fa-arrow-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="category-details-bg" style="background-image: url('./assets/images/cat2.png');">
+                                <div class="cat-overlay">
+                                    <div class="category-details-info">
+                                        <p class="mb-2 fs-15px text-white fw-450">7 Properties</p>
+                                        <h1 class="mb-2 fs-24px text-white fw-450">Single Family Home</h1>
+                                        <a class="text-white fw-450">MORE DETAILS <i
+                                                class="fa-solid fa-arrow-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-12 mb-3">
+                    <div class="card-category">
+                        <h1 class="card-category-title mb-4">Commercial</h1>
+                        <p class="text-category-details mb-4">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                            been the
+                            industry's standard dummy text ever since the when an unknown printer took a galley of type.
+                            Lorem
+                            Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                            the
+                            industry's standard dummy text ever since the when an unknown printer took a galley of type.
+                            Lorem
+                            Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                            the
+                            industry's standard dummy text ever since.
+                        </p>
+                        <button class="btn btn-explore-secondary">Explore now</button>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-12 mb-3">
+                    <div class="row">
+                        <div class="col-6">
+                            <div class="category-details-bg" style="background-image: url('./assets/images/cat3.png');">
+                                <div class="cat-overlay">
+                                    <div class="category-details-info">
+                                        <p class="mb-2 fs-15px text-white fw-450">7 Properties</p>
+                                        <h1 class="mb-2 fs-24px text-white fw-450">Single Family Home</h1>
+                                        <a class="text-white fw-450">MORE DETAILS <i
+                                                class="fa-solid fa-arrow-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="category-details-bg" style="background-image: url('./assets/images/cat4.png');">
+                                <div class="cat-overlay">
+                                    <div class="category-details-info">
+                                        <p class="mb-2 fs-15px text-white fw-450">7 Properties</p>
+                                        <h1 class="mb-2 fs-24px text-white fw-450">Single Family Home</h1>
+                                        <a class="text-white fw-450">MORE DETAILS <i
+                                                class="fa-solid fa-arrow-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="mt-5 container-main py-5">
+        <h1 class="mt-5 section-title wide-sm-55">Search Through All Home For
+            Sale In Switzerland</h1>
+        <div class="wide-sm-55">
+
+            <p class="text-plan-section">Villas & Houses For Sale. Luxury Homes, Chalets, Studies & Apartmentd For Sale
+            </p>
         </div>
     </div>
     <div id="preloader"></div>
