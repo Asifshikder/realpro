@@ -15,136 +15,13 @@
     <link href="./Site/img/apple-touch-icon.png" rel="apple-touch-icon">
     <link href="./assets/css/style.css" rel="stylesheet" />
     <link href="./assets/css/utility.css" rel="stylesheet" />
-    <link href="./lib/slick/slick.css" rel="stylesheet" />
     <link href="./lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
     <link href="./lib/fontawesome-free-6.3.0-web/css/all.min.css" rel="stylesheet" />
+
+    <link href="./lib/slick/slick-theme.css" rel="stylesheet" />
+    <link href="./lib/slick/slick.css" rel="stylesheet" />
     <style>
-        .tarkikComandSlider {
-            height: auto;
-            margin-left: auto;
-            margin-right: auto;
-            position: relative;
-        }
 
-        .slick-dots {
-            display: none !important;
-            position: absolute;
-            bottom: -45px;
-            display: block;
-            width: 100%;
-            padding: 0;
-            list-style: none;
-            text-align: center;
-        }
-
-        .slick-dots li {
-            position: relative;
-            display: inline-block;
-            width: 6px;
-            height: 6px;
-            margin: 0 5px;
-            padding: 0;
-            cursor: pointer;
-        }
-
-        .slick-dots li button {
-            display: none;
-        }
-
-        .slick-dots li:before {
-            top: 1px;
-            transition: all 0.5s;
-            content: "";
-            width: 6px;
-            height: 6px;
-            background-color: #ffffff;
-            position: absolute;
-        }
-
-        .slick-dots li.slick-active:before {
-            top: 0;
-            width: 8px;
-            height: 8px;
-            margin-left: -2px;
-            background-color: #964848;
-        }
-
-        .slick-prev {
-            left: 0;
-            transform: rotate(180deg);
-        }
-
-        .slick-next {
-            right: 0;
-        }
-
-        .slick-arrow {
-            top: 50%;
-            height: 26px;
-            width: 14px;
-            margin-top: -13px;
-            position: absolute;
-            font-size: 0;
-            cursor: pointer;
-            background-color: transparent;
-            border: none;
-            background-image: url(https://tarkikromanski.github.io/files/arrow-slider.png);
-            background-repeat: no-repeat;
-        }
-
-        .comandSlider__item {
-            transition: box-shadow 2s;
-            cursor: pointer;
-            position: relative;
-            background-color: #f9f9f9;
-            margin: 0 10px;
-            padding: 30px;
-        }
-
-
-        .comandSlider__item_name {
-            text-transform: uppercase;
-            font-weight: 700;
-            font-size: 16px;
-            color: #3eaef2;
-            margin: 0;
-            margin-bottom: 7px;
-        }
-
-        .comandSlider__item_status {
-            margin: 0;
-            color: #fff;
-            font-size: 12px;
-            margin-bottom: 80px;
-        }
-
-        .comandSlider__item_sendMail {
-            width: 25px;
-            height: 20px;
-            position: absolute;
-            background-image: url(https://tarkikromanski.github.io/files/mail-ico.png);
-            top: 34px;
-            right: 30px;
-        }
-
-        .comandSlider__item_photo {
-            max-width: 150px;
-            max-height: 150px;
-            margin: auto;
-            margin-bottom: 54px;
-        }
-
-        .comandSlider__item_contact {
-            font-size: 12px;
-            color: #fff;
-            margin: 2px;
-        }
-
-        .comandSlider__item_contact span {
-            color: #3eaef2;
-            font-weight: 700;
-            margin-right: 5px;
-        }
     </style>
 </head>
 
@@ -1001,28 +878,133 @@
 
 
         <div class="mt-5">
-            <h1>Our team</h1>
-            <div class="tarkikComandSlider">
-                <article class="comandSlider__item p-2">
-                    <div class="slide-item" style="background: url('./assets/images/cat1.png');">
-                        
+
+            <div class="slick-slider text-center">
+                <div class="text-center p-3">
+                    <div class="slick-partner city-slide-main"
+                        style="background: url('./assets/images/city/zuris.png');">
+                        <div class="city-slide-overlay">
+                            <div class="text-center">
+                                <a class="text-city-link " href="#">Zurich</a>
+                            </div>
+                        </div>
                     </div>
-                </article>
-                <article class="comandSlider__item p-2">
-                    <div class="slide-item">
-                        <img src="./assets/images/cat1.png">
+                </div>
+                <div class="text-center p-3">
+                    <div class="slick-partner city-slide-main"
+                        style="background: url('./assets/images/city/geneva.png');">
+                        <div class="city-slide-overlay">
+                            <div class="text-center">
+                                <a class="text-city-link " href="#">Geneva</a>
+                            </div>
+                        </div>
                     </div>
-                </article>
-                <article class="comandSlider__item p-2">
-                    <div class="slide-item">
-                        <img src="./assets/images/cat1.png">
+                </div>
+                <div class="text-center p-3">
+                    <div class="slick-partner city-slide-main"
+                        style="background: url('./assets/images/city/basel.png');">
+                        <div class="city-slide-overlay">
+                            <div class="text-center">
+                                <a class="text-city-link " href="#">Basil</a>
+                            </div>
+                        </div>
                     </div>
-                </article>
-                <article class="comandSlider__item p-2">
-                    <div class="slide-item">
-                        <img src="./assets/images/cat1.png">
+                </div>
+                <div class="text-center p-3">
+                    <div class="slick-partner city-slide-main"
+                        style="background: url('./assets/images/city/lausanne.png');">
+                        <div class="city-slide-overlay">
+                            <div class="text-center">
+                                <a class="text-city-link " href="#">Lausanne</a>
+                            </div>
+                        </div>
                     </div>
-                </article>
+                </div>
+
+                <div class="text-center p-3">
+                    <div class="slick-partner city-slide-main"
+                        style="background: url('./assets/images/city/lausanne.png');">
+                        <div class="city-slide-overlay">
+                            <div class="text-center">
+                                <a class="text-city-link " href="#">Zurich</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="text-center p-3">
+                    <div class="slick-partner city-slide-main"
+                        style="background: url('./assets/images/city/lausanne.png');">
+                        <div class="city-slide-overlay">
+                            <div class="text-center">
+                                <a class="text-city-link " href="#">Zurich</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="container-main mb-5">
+        <div class="row">
+            <div class="col-sm-6 col-12 mb-4">
+                <div class="bg-white rounded-16 p-4">
+                    <img src="./assets/images/mask-1.png" height="60">
+                    <h1 class="text-city-main mt-2">Arrange Valuation</h1>
+                    <p class="text-city-details">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                        Ipsum
+                        has
+                        been the industry's standard dummy text ever since the 1500s, when an unknown
+                        printer took a galley of type and scrambled it to
+                    </p>
+                    <a class="link-city-primary fw-450" href="#">Lets go <i
+                            class="fa-solid fa-arrow-right-long"></i></a>
+                </div>
+            </div>
+            <div class="col-sm-6 col-12 mb-4">
+                <div class="bg-white rounded-16 p-4">
+                    <img src="./assets/images/mask-2.png" height="60">
+                    <h1 class="text-city-main mt-2">Professional Service</h1>
+                    <p class="text-city-details">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                        Ipsum
+                        has
+                        been the industry's standard dummy text ever since the 1500s, when an unknown
+                        printer took a galley of type and scrambled it to
+                    </p>
+                    <a class="link-city-info fw-450" href="#">Lets go <i class="fa-solid fa-arrow-right-long"></i></a>
+                </div>
+            </div>
+            <div class="col-sm-6 col-12 mb-4">
+                <div class="bg-white rounded-16 p-4">
+                    <img src="./assets/images/mask-3.png" height="60">
+                    <h1 class="text-city-main mt-2">Professional Service</h1>
+                    <p class="text-city-details">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                        Ipsum
+                        has
+                        been the industry's standard dummy text ever since the 1500s, when an unknown
+                        printer took a galley of type and scrambled it to
+                    </p>
+                    <a class="link-city-warn fw-450" href="#">Lets go <i class="fa-solid fa-arrow-right-long"></i></a>
+                </div>
+            </div>
+            <div class="col-sm-6 col-12 mb-4">
+                <div class="bg-white rounded-16 p-4">
+                    <img src="./assets/images/mask-4.png" height="60">
+                    <h1 class="text-city-main mt-2">Professional Service</h1>
+                    <p class="text-city-details">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                        Ipsum
+                        has
+                        been the industry's standard dummy text ever since the 1500s, when an unknown
+                        printer took a galley of type and scrambled it to
+                    </p>
+                    <a class="link-city-success fw-450" href="#">Lets go <i
+                            class="fa-solid fa-arrow-right-long"></i></a>
+                </div>
             </div>
         </div>
     </div>
@@ -1031,12 +1013,47 @@
     <script src="./lib/slick/slick.min.js"></script>
     <script src="./lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script>
-        $('.tarkikComandSlider').slick({
+        $('.slick-slider').slick({
+            dots: false,
+            infinite: true,
+            speed: 300,
             slidesToShow: 4,
             slidesToScroll: 1,
-            autoplay: false,
-            autoplaySpeed: 5000,
-            dots: true,
+            responsive: [
+                {
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 1,
+                        infinite: true,
+                        dots: false
+                    }
+                },
+                {
+                    breakpoint: 600,
+                    settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 1,
+                        infinite: true,
+                        dots: false
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 1,
+                        infinite: true,
+                        dots: false
+                    }
+                }
+            ]
+        });
+        $(function () {
+            $('.slick-prev').empty();
+            $('.slick-prev').append('<i class="fa-solid fa-angle-left"></i>');
+            $('.slick-next').empty();
+            $('.slick-next').append('<i class="fa-solid fa-angle-right"></i>');
         });
     </script>
 </body>
