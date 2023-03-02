@@ -1395,6 +1395,7 @@ text-plan-link active {
     border-bottom-right-radius: 0px !important;
     border-bottom-left-radius: 0px !important;
 }
+
 .valuation-tab {
     background: #F3F3F3;
     width: 58%;
@@ -1413,6 +1414,7 @@ text-plan-link active {
         border-bottom-right-radius: 0px !important;
         border-bottom-left-radius: 0px !important;
     }
+
     .valuation-tab {
         background: #F3F3F3;
         width: 45%;
@@ -1421,6 +1423,7 @@ text-plan-link active {
         border-bottom-right-radius: 0px !important;
         border-bottom-left-radius: 0px !important;
     }
+
     .rent-tab .nav-link {
         font-size: 18px !important;
         border: none;
@@ -1452,6 +1455,7 @@ text-plan-link active {
     /* border-bottom-right-radius: 5px!important; */
     border-bottom: 0px solid #051B44 !important;
 }
+
 .valuation-tab .nav-item.show .nav-link,
 .valuation-tab .nav-link.active {
     background-color: #FF3A6E !important;
@@ -1851,6 +1855,7 @@ text-plan-link active {
     font-size: 17px;
     text-decoration: none;
 }
+
 .text-city-details {
     color: #817F7F !important;
     text-align: left !important;
@@ -1858,6 +1863,7 @@ text-plan-link active {
     line-height: 30px !important;
     font-weight: 450;
 }
+
 @media(min-width:1367px) {
     .text-city-details {
         color: #817F7F !important;
@@ -1866,6 +1872,7 @@ text-plan-link active {
         line-height: 30px !important;
         font-weight: 450;
     }
+
     .text-city-main {
         color: #263238;
         font-size: 29px !important;
@@ -1897,70 +1904,79 @@ text-plan-link active {
     }
 }
 
-.section-title-house{
+.section-title-house {
     font-weight: 500;
     font-size: 45px;
     color: #263238;
 }
-.text-valuation-details{
+
+.text-valuation-details {
     line-height: 32px;
     color: #817F7F;
     font-size: 16px;
     font-weight: 450;
 }
 
-.bg-valuation{
+.bg-valuation {
     background: #051B44;
 }
-.fs-sm-40px{
+
+.fs-sm-40px {
     font-size: 38px;
 }
-.padding-valuation{
+
+.padding-valuation {
     padding: 36px 36px 10px 10px
 }
 
-.valuation-text-details{
+.valuation-text-details {
     font-size: 14px;
     font-weight: 450;
     color: #fff;
     line-height: 30px;
 }
 
-.btn-book-valuation{
+.btn-book-valuation {
     background: #FF3A6E !important;
-    font-size: 15px!important;
-    color: #fff!important;
-    padding: 14px 21px!important;
-    border-radius: 9px!important;
+    font-size: 15px !important;
+    color: #fff !important;
+    padding: 14px 21px !important;
+    border-radius: 9px !important;
 }
 
-@media(min-width:1367px){
-    .fs-sm-40px{
+@media(min-width:1367px) {
+    .fs-sm-40px {
         font-size: 44px;
     }
-    .valuation-text-details{
+
+    .valuation-text-details {
         font-size: 19px;
     }
-    .padding-valuation{
+
+    .padding-valuation {
         padding: 40px 40px 10px 10px
     }
-    .valuation-text-details{
+
+    .valuation-text-details {
         font-size: 18px;
         font-weight: 450;
         color: #fff;
         line-height: 38px;
     }
-    .btn-book-valuation{
+
+    .btn-book-valuation {
         background: #FF3A6E !important;
-        font-size: 16px!important;
-        color: #fff!important;
-        padding: 16px 24px!important;
+        font-size: 16px !important;
+        color: #fff !important;
+        padding: 16px 24px !important;
     }
+
     .section-title-house {
         font-weight: 500;
-        font-size: 60px!important;
+        font-size: 60px !important;
         color: #263238;
     }
+
     .text-valuation-details {
         line-height: 41px;
         color: #817F7F;
@@ -1968,3 +1984,68 @@ text-plan-link active {
         font-weight: 450;
     }
 }
+.w-5{
+    width: 5%;
+}
+.bg-theme-dark {
+    background: #051B44;
+}
+
+.contact-form {
+    display: flex;
+    border-radius: 30px;
+}
+.contact-form .details{
+    width: 40%;
+    background-color: #002333;
+    padding: 50px;
+}
+.contact-form .details h1{
+    color: #fff;
+    font-size: 24px;
+}
+.contact-form .details h6{
+    color: #fff;
+    font-size: 11px;
+    font-weight: 450;
+    line-height: 28px;
+}
+.contact-form .details h4{
+    color: #fff;
+    font-size: 15px;
+    font-weight: 450;
+    line-height: 25px;
+}
+.contact-form .details h5{
+    color: #fff;
+    font-size: 11px;
+    font-weight: 450;
+    line-height: 20px;;
+}
+.form-details-contact{
+    color: rgba(143, 149, 178, 1);
+    font-weight: 450;
+    font-size: 11px;
+}
+.contact-form .form{
+    width: 60%;
+    background-color: #ffffff;
+    padding: 55px;
+}
+
+.contact-form .form h1{
+   color: rgba(38, 50, 56, 1);
+   font-size: 40px;
+}
+.contact-control{
+    height: 45px!important;
+}
+.contact-control ::placeholder{
+    color:rgba(146, 146, 146, 1)!important;
+    font-weight: 450;
+    font-size: 13px;
+}
+#your_form input#email::-webkit-input-placeholder {color:#999;}
+#your_form input#email::-moz-placeholder          {color:#999;}
+#your_form input#email:-moz-placeholder           {color:#999;}
+#your_form input#email:-ms-input-placeholder      {color:#999;}
