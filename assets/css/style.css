@@ -1896,3 +1896,75 @@ text-plan-link active {
         text-decoration: none;
     }
 }
+
+.section-title-house{
+    font-weight: 500;
+    font-size: 45px;
+    color: #263238;
+}
+.text-valuation-details{
+    line-height: 32px;
+    color: #817F7F;
+    font-size: 16px;
+    font-weight: 450;
+}
+
+.bg-valuation{
+    background: #051B44;
+}
+.fs-sm-40px{
+    font-size: 38px;
+}
+.padding-valuation{
+    padding: 36px 36px 10px 10px
+}
+
+.valuation-text-details{
+    font-size: 14px;
+    font-weight: 450;
+    color: #fff;
+    line-height: 30px;
+}
+
+.btn-book-valuation{
+    background: #FF3A6E !important;
+    font-size: 15px!important;
+    color: #fff!important;
+    padding: 14px 21px!important;
+    border-radius: 9px!important;
+}
+
+@media(min-width:1367px){
+    .fs-sm-40px{
+        font-size: 44px;
+    }
+    .valuation-text-details{
+        font-size: 19px;
+    }
+    .padding-valuation{
+        padding: 40px 40px 10px 10px
+    }
+    .valuation-text-details{
+        font-size: 18px;
+        font-weight: 450;
+        color: #fff;
+        line-height: 38px;
+    }
+    .btn-book-valuation{
+        background: #FF3A6E !important;
+        font-size: 16px!important;
+        color: #fff!important;
+        padding: 16px 24px!important;
+    }
+    .section-title-house {
+        font-weight: 500;
+        font-size: 60px!important;
+        color: #263238;
+    }
+    .text-valuation-details {
+        line-height: 41px;
+        color: #817F7F;
+        font-size: 21px;
+        font-weight: 450;
+    }
+}
